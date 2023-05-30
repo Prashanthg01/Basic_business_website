@@ -1,0 +1,51 @@
+.mall_left {
+  margin-left: 10%;
+}
+
+.mall_right {
+  margin-right: 10%;
+}
+
+body {
+  font-family: normal normal 600 23px/31px Nunito Sans;
+}
+
+.nav_main {
+  backdrop-filter: blur(7px) saturate(200%);
+  -webkit-backdrop-filter: blur(7px) saturate(200%);
+  background-color: rgba(255, 255, 255, 0.04);
+  border-radius: 12px;
+  border: 1px solid rgba(209, 213, 219, 0.3);
+}
+
+.custom_nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-link {
+  font-size: 19px;
+  color: #000000;
+}
+
+.navbar-nav {
+  gap: 35px;
+  font: normal normal 600 19px/26px Segoe UI;
+}
+
+.banner_main {
+  display: flex;
+  position: relative;
+}
+
+.banner_container1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  h1 {
+    font-size: 40px;
+    font-weight: 700;
+    padding: 15px 0px;
+  }
+}
